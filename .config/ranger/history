@@ -1,0 +1,38 @@
+shell 
+open_with apt-get install
+open_with 
+h
+rename fiducial_LLL_test (1).bmp
+rename img.bmp
+search pdf
+search 203
+search 
+search 220
+help
+search conf
+search ran
+search down
+search notes.pd
+search formula
+search lathi
+search notes.pdf
+search 204
+search exam
+search notes
+rename Peregrine
+Q
+pager_move up
+! echo 'a' >> ~/rangerdir
+exec echo 'a' >> ~/rangerdir
+up
+j
+k
+<up>
+echo 'a' >> ~/rangerdir
+self.fm.execute_console("echo 'a' >> ~/rangerdir")
+self.e
+self
+cpto
+pager_move left
+pager_close 
+pager
