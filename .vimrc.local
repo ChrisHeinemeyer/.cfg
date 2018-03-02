@@ -1,0 +1,5 @@
+Plugin 'mhinz/vim-startify'
+Plugin 'lervag/vimtex'
+UnBundle 'bling/vim-bufferline'
+Bundle 'farseer90718/vim-taskwarrior'
+
