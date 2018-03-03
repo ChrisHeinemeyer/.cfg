@@ -14,7 +14,7 @@ export TERM="xterm-256color"
 ZSH_THEME="random"
 ZSH_THEME="xiong-chiamiov"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(history time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(anaconda)
 eval `dircolors /home/chris/.dir_colors/dircolors`
 POWERLEVEL9K_MODE='nerdfont-complete'
 ZSH_THEME="powerlevel9k/powerlevel9k"
@@ -123,3 +123,4 @@ jd() {
     [ -d "$dir" ] && pushd "$dir"
 }
 alias config='/usr/bin/git --git-dir=/home/chris/.cfg/ --work-tree=/home/chris'
+export PATH="/home/chris/miniconda3/bin:$PATH"
